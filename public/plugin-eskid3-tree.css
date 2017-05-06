@@ -1,0 +1,33 @@
+.tagcloud {
+	display: block;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.tagcloud .tag {
+	margin-right: 0.5em;
+	white-space: nowrap;
+	display: inline-block;
+	color: #555;
+}
+
+/* CSS Gráfico */
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+  opacity: 1 !important;
+}
+
+.node text {
+  font: 12px sans-serif;
+  fill-opacity: 1 !important;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
